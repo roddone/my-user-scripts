@@ -7,6 +7,8 @@
 // @include      /^https?://www2\.yggtorrent\.(ws|se)/engine/search*/
 // @grant        none.
 // @run-at       document-start
+// @updateURL   https://github.com/roddone/my-user-scripts/raw/master/yggtorrent-publishdate-sorting.user.js
+// @downloadURL https://github.com/roddone/my-user-scripts/raw/master/yggtorrent-publishdate-sorting.user.js
 // ==/UserScript==
 
 (function() {
