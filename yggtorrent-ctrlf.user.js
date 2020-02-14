@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         add keyboard search
 // @namespace    YggTorrent
-// @version      0.2
+// @version      0.3
 // @description  allows to ctrl+f to search on yggtorrent
 // @author       Romain Oddone
 // @include      /^https?://(www2|www)?\.yggtorrent\.(ws|se)*/
