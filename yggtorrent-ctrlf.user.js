@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         add keyboard search
 // @namespace    YggTorrent
-// @version      0.4
+// @version      0.5
 // @description  allows to ctrl+f to search on yggtorrent
 // @author       Romain Oddone
-// @include      /^https?://(www2|www)?\.yggtorrent\.(ws|se)*/
+// @include      /^https?://(www2\.|www\.)?yggtorrent\.(ws|se)*/
 // @grant        none.
 // @run-at       document-ready
 // @updateURL   https://github.com/roddone/my-user-scripts/raw/master/yggtorrent-ctrlf.user.js
