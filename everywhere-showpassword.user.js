@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         show passwords
 // @namespace    Everywhere
-// @version      0.2
+// @version      0.3
 // @description  allows to show passwords in input for any website
 // @author       Romain Oddone
 // @include      *
@@ -15,7 +15,7 @@
     'use strict';
     let previousPasswordInputs = null;
 
-    document.body.onkeydown = function(evt){
+    document.body.addEventListener('keydown', function(evt){
         if(evt.key === 'p' && evt.ctrlKey === true && evt.altKey === true){
             evt.preventDefault();
             //previous inputs have been revealed, lets hide them instead
@@ -29,7 +29,7 @@
                 previousPasswordInputs = passwordInputs;
             }
         }
-    };
+    });
 
     function toggleInputsType(inputs){
         for(let input of inputs){
