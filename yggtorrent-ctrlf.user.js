@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         add keyboard search
 // @namespace    YggTorrent
-// @version      0.3
+// @version      0.4
 // @description  allows to ctrl+f to search on yggtorrent
 // @author       Romain Oddone
 // @include      /^https?://(www2|www)?\.yggtorrent\.(ws|se)*/
@@ -13,10 +13,10 @@
 
 (function() {
     'use strict';
-    document.body.onkeydown = function(evt){
+    document.body.addEventListener('keydown', function(evt){
         if(evt.key === 'f' && evt.ctrlKey === true){
             evt.preventDefault();
             document.querySelector('body > header > div > form > div > input[type=text]').focus()
         }
-    };
+    });
 })();
