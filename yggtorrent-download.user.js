@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         allows to download with keyboard action
 // @namespace    YggTorrent
-// @version      0.2
+// @version      0.3
 // @description  allows to ctrl+f to search on yggtorrent
 // @author       Romain Oddone
-// @include      /^https?://(www2\.|www\.)?yggtorrent\.(ws|se)/torrent/*/
+// @include      /^https?://(www2\.|www\.)?yggtorrent\.(ws|se|si)/torrent/*/
 // @grant        none.
 // @run-at       document-ready
 // @updateURL   https://github.com/roddone/my-user-scripts/raw/master/yggtorrent-download.user.js
