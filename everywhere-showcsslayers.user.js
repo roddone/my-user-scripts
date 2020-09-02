@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         show passwords
+// @name         show css layers
 // @namespace    Everywhere
 // @version      0.1
-// @description  allows to show passwords in input for any website
+// @description  add css layers for css debugging
 // @author       Romain Oddone
 // @include      *
 // @grant        none.
