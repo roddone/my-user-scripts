@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         add yggtorrent link
 // @namespace    Betaseries
-// @version      0.4
+// @version      0.5
 // @description  add link to yggtorrent search in betaseries episodes list
 // @author       Romain Oddone
 // @include      https://www.betaseries.com/membre/seddhaz/episodes
@@ -17,7 +17,7 @@
     await waitForResults();
     // console.log('found !')
     document.querySelectorAll('#episodes_container .episode').forEach(episode_elt => {
-        let title = episode_elt.querySelector('.ep').innerText
+        let title = episode_elt.querySelector('.ep').innerText.replace("'", '')
         let episode = episode_elt.querySelector('a:nth-child(2)').innerText
         let child = document.createElement('a');
 
