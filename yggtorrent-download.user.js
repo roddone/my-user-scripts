@@ -4,7 +4,7 @@
 // @version      0.7
 // @description  allows to ctrl+f to search on yggtorrent
 // @author       Romain Oddone
-// @include      /^https?://(www4\.|www3\.|www2\.|www\.)?yggtorrent\.(ws|se|si|li|nz|re)/torrent*/
+// @include      /^https?://(www5\.|www4\.|www3\.|www2\.|www\.)?yggtorrent\.(ws|se|si|li|nz|re|la)/torrent*/
 // @grant        none.
 // @run-at       document-ready
 // @updateURL   https://github.com/roddone/my-user-scripts/raw/master/yggtorrent-download.user.js
