@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         automatic publish date sorting
 // @namespace    YggTorrent
-// @version      0.10
+// @version      0.11
 // @description  Automatically sorts search results by descending publication date
 // @author       Romain Oddone
-// @include      /^https?://(www5\.|www4\.|www3\.|www2\.|www\.)?yggtorrent\.(ws|se|si|li|nz|re|la|fi)/engine/search*/
+// @include      /^https?://(www6\.|www5\.|www4\.|www3\.|www2\.|www\.)?yggtorrent\.(lol|ws|se|si|li|nz|re|la|fi)/engine/search*/
 // @grant        none.
 // @run-at       document-start
 // @updateURL   https://github.com/roddone/my-user-scripts/raw/master/yggtorrent-publishdate-sorting.user.js
