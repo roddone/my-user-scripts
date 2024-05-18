@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         automatic publish date sorting
 // @namespace    YggTorrent
-// @version      0.19
+// @version      0.20
 // @description  Automatically sorts search results by descending publication date
 // @author       Romain Oddone
 // @include      /^https?://(www6\.|www5\.|www4\.|www3\.|www2\.|www\.)?yggtorrent\.(cool|qa|wtf|do|lol|ws|se|si|li|nz|re|la|fi)/engine/search*/
